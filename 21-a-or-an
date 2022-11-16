@@ -1,0 +1,14 @@
+public String aOrAn(String word) {
+    //code here
+    String strResult;
+    if (word.startswith('a') || 
+    word.startswith('e') || 
+    word.startswith('i') || 
+    word.startswith('o') ||
+    word.startswith('u') ) 
+     {
+    strResult = 'an ' + word;
+    }
+    else {strResult = 'a ' + word; }
+    return strResult;
+}
